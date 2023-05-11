@@ -1,3 +1,5 @@
+// arguments example
+
 function show (a,b,c){
     let sum = 0;
     for (let i = 0; i < arguments.length; i++) {

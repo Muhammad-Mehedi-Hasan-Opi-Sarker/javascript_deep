@@ -1,3 +1,5 @@
+// inner and split method example
+
 function something(gret, name){
     function getFirstName(){
         if(name){

@@ -1,3 +1,5 @@
+// This topic is a calback function
+
 function simple(a, b, cb) {
   const c = a + b; //15
   const d = a - b; //5

@@ -1,3 +1,5 @@
+// First Class Function example
+
 const add = function (a,b){
     return a+b;
 }

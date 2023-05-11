@@ -1,3 +1,5 @@
+// This topic is a higer order function
+
 function sum(a, b) {
   return a + b;
 }

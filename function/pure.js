@@ -1,3 +1,5 @@
+// This topic is a pure function example
+
 let point = {
   x: 20,
   y: 90,
