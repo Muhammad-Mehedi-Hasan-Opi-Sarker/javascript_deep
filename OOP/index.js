@@ -22,3 +22,11 @@ let another = {
   print: rect.printproperties,
 };
 console.log(another.print());
+
+/* 
+you can make a OOP two way.
+
+1. Factorial way  = example = factorial.js
+2. Constructor way = example = constructor.js
+
+*/
