@@ -20,6 +20,10 @@ class Additon {
       return this.number1 - this.number2;
     }.bind(this);
 
+   /*  Object.defineProperty=()=>{
+      return add()
+    } */
+
     this.all = function () {
       const adds = add();
       const divisions = division();
@@ -29,7 +33,8 @@ class Additon {
       return addall;
     };
   }
+  
 }
 
 const result = new Additon(10, 20);
-console.log(result.all());
+console.log(result.add());
