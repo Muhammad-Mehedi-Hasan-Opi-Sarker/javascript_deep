@@ -6,16 +6,23 @@ mane ehankar code gulo ektar sathe arektar sathe kivabe add kora jabe.
 */
 
 class Shape {
-  constructor() {}
+  constructor(color) {
+    this.color= color;
+  }
+}
+class Circel {
+  constructor(color) {
+    this.color= color;
+  }
 }
 
-Shape.prototype.common = function () {
-  console.log("This is a common");
+Circel.prototype.common = function () {
+  console.log("This is a Circel");
 };
 
 class Square extends Shape {
-  constructor(width) {
-    super(); // this function must need for call.
+  constructor(width, color) {
+    super(color); // this function must need for call.
     this.width = width;
   }
 }
@@ -25,4 +32,5 @@ Square.prototype.draw = function () {
 };
 
 const shape = new Shape();
-const result = new Square(40);
+const circel = new Circel();
+const result = new Square(40, 'green');
