@@ -37,6 +37,28 @@ const {name, email} = person
 
 // destructuring of array
 const array = [2,3,4,54,5,6]
-cont [a,b,c,d] = array
-console.log(a,b,c,d)
+const [a,b,c,d] = array
+// console.log(a,b,c,d)
 
+// Symbol
+let s1 = Symbol("hello");
+let s2 = Symbol("hello")
+// console.log(s1 == s2)
+
+// set
+const set  = new Set([1,2,3,4,5])
+set.add(10)
+set.add(10)
+set.clear()
+// console.log(set)
+
+// map
+const data = [
+    ['a',3],
+    ['b',4],
+    ['c',5],
+]
+const map = new Map(data)
+for (const [i,k] of map) {
+    console.log(i,k)
+}

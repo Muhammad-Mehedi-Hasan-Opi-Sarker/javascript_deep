@@ -10,9 +10,10 @@ class Shape {
     this.color= color;
   }
 }
-class Circel {
-  constructor(color) {
-    this.color= color;
+class Circel extends Square {
+  constructor(width, color) {
+    super(width, color)
+    
   }
 }
 
